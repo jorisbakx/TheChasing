@@ -11,9 +11,14 @@ namespace TheChasing
 
         }
 
-        //public Catch( ... )
-        //{
-              // put the bastard in jail!
-        //}
-    }
+		public void Catch(Thief thief)
+        {
+			thief.Catch();
+        }
+
+		public override string ToString()
+		{
+			return "I am gonna catch you";
+		}
+	}
 }

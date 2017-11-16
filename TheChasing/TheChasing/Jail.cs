@@ -20,8 +20,8 @@ namespace TheChasing
 
         public void Imprison(Thief thief)
         {
-            // zet de dief gevangen
-        }
+			prisoner.Catch();
+		}
 
         public override string ToString()
         {

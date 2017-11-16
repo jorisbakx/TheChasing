@@ -9,14 +9,18 @@ namespace TheChasing
             // make jail
             Jail jail = new Jail();
 
-            // make thief
+			// make thief
+			Thief thief = new Thief("Dyon Altena");
+			// make cop
+			Cop cop = new Cop();
+			// cop puts thief in jail
+			cop.Catch(thief);
 
-            // make cop
-
-            // cop puts thief in jail
             Console.WriteLine(jail);
+			Console.WriteLine(cop);
+			Console.WriteLine(thief);
 
-            Console.Read();
+			Console.Read();
         }
     }
 }
